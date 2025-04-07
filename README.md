@@ -9,7 +9,7 @@ To make the HTML clean code, I used nav, main, header, section and span tags. I 
 I wrote the code sequentially by dividing each container one by one. The template tags doesn't display anything but can be used to insert its content into another using css. I also downloaded the icons from official sites.
 
 ## Part 3: The CSS
-The CSS is what makes this portfolio feel alive. With complementing light blue and white colors, I was able to make a nice theme. To make the clicked button effect on the <a> tag, I used css to add a class to the element which changes the background color. I also discovered that the !important specification in the external css overrides the other css methods.
+The CSS is what makes this portfolio feel alive. With complementing light blue and white colors, I was able to make a nice theme. To make the clicked button effect on the <a> tag, I used css to add a class to the element which changes the background color. I also discovered that the important specification in the external css overrides the other css methods.
 
 ## Part 4: Responsiveness
 
