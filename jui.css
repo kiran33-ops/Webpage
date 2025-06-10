@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
 body {
     background-image: url('back.png'); 
     background-size: cover;        
@@ -13,7 +12,6 @@ body {
     background-position: center; 
     color: #2A5CAA;
 }
-
 header {
     padding:20px ;
     position:fixed;
@@ -23,7 +21,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .logo {
     font-size: 26px;
     font-weight:bold;
@@ -31,38 +28,31 @@ header {
     margin-left: 15px;
     margin-bottom:10px;
 }
-
 .nav-links {
     list-style: none;
     display:flex;
 }
-
 .nav-links li {
     margin: 0 14px;
 }
-
 .nav-links a {
     color: #2A5CAA;
     text-decoration:none;
     font-size: 20px;
     transition: 0.5s;
 }
-
 .nav-links a:hover, .nav-links a.active {
     color: #e03e4c;
 }
-
 section {
     padding: 80px 0px;
     text-align: center;
 }
-
 h2 {
     font-size: 36px;
     color: #2A5CAA;
     margin-bottom: 20px;
 }
-
 .hero {
     display: flex;
     align-items: center;
@@ -71,50 +61,40 @@ h2 {
     padding: 20px;
     text-align: left;
 }
-
 .hero-content {
     max-width: 500px;
 }
-
 .hero-content h1 {
     font-size: 48px;
     font-weight: 600;
 }
-
 .hero-content h1 span {
     color: #2A5CAA;
 }
-
 .hero-content h2 {
     font-size: 30px;
     font-weight: 400;
     color: #2A5CAA;
 }
-
 .hero-content h2 span {
     color: #2A5CAA;
 }
-
 .hero-content p {
     margin: 20px 0;
     color: #2A5CAA;
 }
-
 .social-icons {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
 }
-
 .social-icons img {
     width: 30px;
     transition: 0.3s;
 }
-
 .social-icons img:hover {
     transform: scale(1.2);
 }
-
 .btn {
     display: inline-block;
     background: #2A5CAA;
@@ -125,11 +105,9 @@ h2 {
     font-weight: 600;
     transition: 0.3s;
 }
-
 .btn:hover {
     background: #e03e4c;
 }
-
 .hero-image img {
     width: 400px;
     border-radius: 10px;
@@ -141,7 +119,6 @@ h2 {
     gap:15px;
     flex-wrap: wrap;
 }
-
 .service {
     background:hsl(227, 79%, 74%);
     padding: 20px;
@@ -149,11 +126,9 @@ h2 {
     width: 250px;
     transition: 0.4s;
 }
-
 .service:hover {
     transform: scale(1.09);
 }
-
 .service h3 {
     color: #fff;
 }
@@ -164,7 +139,6 @@ h2 {
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .skills-list li {
     background: hsl(227, 79%, 74%);
     padding: 10px 20px;
@@ -217,7 +191,6 @@ button {
     cursor: pointer;
     border-radius: 4px;
 }
-
 button:hover {
     background:#fff;
     color: #000;
@@ -232,18 +205,15 @@ footer {
     width: 100%;
     margin-bottom: 10px;
 }
-
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contact-info a {
     color: #2A5CAA;
     text-decoration: none;
 }
-
 .contact-info a:hover {
     text-decoration:none;
 }
@@ -256,7 +226,6 @@ footer {
     66% { content: "Developer"; }
     100% { content: "Gamer"; }
 }
-
 .text::after {
     content: "Student";
     animation: wordChange 8s infinite;
@@ -266,18 +235,15 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-    .nav-links {
-        margin-top: 10px;
-        flex-direction: column;
-    }
     .nav-links li {
-        margin: 10px 0;
-    }
+    margin: 0px 14px;
+}
     .hero {
         flex-direction: column;
         text-align: center;
     }
     .hero-content {
+        margin-top:100px;
         text-align: center;
     }
     .social-icons {
